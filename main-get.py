@@ -1,5 +1,5 @@
 import os
-from es_utils import connect_elasticsearch, get_cluster_health, get_logstash_pipelines
+from es_get_pipelines import connect_elasticsearch, get_cluster_health, get_logstash_pipelines
 
 def main():
     os.makedirs("pipelines", exist_ok=True)  # Assicura che la directory per le pipeline esista
